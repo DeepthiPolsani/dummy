@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+*{ text-align: center;margin: 0px auto;}
+.top{
+    float: left;
+    padding-left: 25px;
+}
+.top p{
+    display: inline;}
+.header{
+    background-color: black;
+    color: white;
+    height: 80px;
+
+}
+nav {
+    float: right;
+    padding-right: 25px;
+ }
+ a{
+     padding: 5px;
+     color: white;
+     text-decoration: none;
+ }
+ .img1{width: 23px; height: 23px; padding: 11px 3px 0px 2px;}
+ .above{  background:  #333 url(b1.jpg) no-repeat 50% 50%; height: 350px;width: 100%;}
+ .btn1{
+     background-color:lawngreen;
+     color: white;
+     font-size: 15px;
+     height: 40px;
+     width: 180px;
+     border-radius: 8px;
+     border-style: none;
+     margin: 5px;
+     margin-top: 50px;
+ }
+ .btn2{
+     background-color:#068fd5;
+     color: white;
+     font-size: 15px;
+     height: 40px;
+     width: 180px;
+     border-radius: 8px;
+     border-style: none;
+     margin-top: 50px;}
+ /* second part*/
+ table{
+                border: 2px solid gray;
+                padding: 25px;
+                
+                margin: 35px 410px 35px 350px;
+                /* flex-grow: inherit; */
+                display: flex;
+                justify-content: center;
+                background: cornsilk;
+                background-image: url("back.jpg");
+
+}
+
+
+/* footer*/
+
+    .footer .column {
+        float: left;
+        width: 136px;
+    }
+    .footer .title {
+        font-size: 12px;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+    .footer ul {
+        font-size: 12px;
+    }
+    .footer ul li {
+        margin-bottom: 7px;
+    }
+    .footer a {
+        color: #8e959c;
+    }
+    .title{
+        color: white;
+        margin-left: 48px;
+    }
+
+    
+
+    .footer-text{
+        color: slategray;
+        
+    }
+    .copyright {
+    clear: right;
+    float: right;
+    line-height: 20px;
+    font-size: 12px;
+    color: #8e959c;
+    margin-top: 10px;
+    padding: 5px;
+    
+    margin-right: 130px;
+}
+.copyright a {
+    color: #8e959c;
+    margin-left: 8px;
+    
+}
+    .icon img {width: 23px; height: 23px; padding: 5px;
+    
+    
+}
+.icon{
+    
+    float: right;
+    padding:25px 180px 20px 0px;
+    
+    
+}
+    </style>
+
+</head>
+<body>
+    <header class="header">
+
+        
+            <div class="top">
+                <p  style="font-size: 35px;">Insight</p>
+                <p style=" font-style: italic; opacity: 0.5;">your nice slogan</p>
+            </div>
+
+            <nav>
+                    <a href="layout.html"><img src="i3.jpg" class="img1">How it works</a>
+                    <a href="login.html"><img src="i2.jpg" class="img1">Sign up</a>
+                    <a href="sign.html"><img src="i1.jpg" class="img1">Login</a>
+            </nav>
+
+    </header>
+    <main>
+        <div class="above">
+           
+               
+                <h1 style="color: white; padding-top: 50px; padding-bottom: 30px;">
+                    Don't ignore Your dreams
+                </h1>
+             
+                     <pre style="text-align: center; color: white; padding:10px 0px 0px -10px;">
+The 5 regrets paint a portrait of post-industrial man,who shrinks
+  himself into a shape that fits his circumstances, then turns
+        dutifully till he stops</pre>
+              
+        
+                <button class="btn1">See how it works</button>
+                <button class="btn2">Join Us</button>
+               </div>
+            </div>
+            <form id="regForm" >
+                <table width="45%">
+                       
+                       <td>Fname:</td>
+                       <td><input type="text" id="fname"   required></td>
+                   </tr>
+                   <tr>
+                       <td>Lname:</td>
+                       <td><input type="text" id="lname"  required></td>
+                   </tr>
+                   <tr>
+                       <td>Mobilenumber</td>
+                       <td><input type="number" id="num" required></td>
+                   </tr>
+                   <tr>
+                       <td>Email:</td>
+                       <td><input type="email" id="email" required></td>
+                   </tr>
+                   <tr>
+                       <td>Password:</td>
+                       <td><input type="password" id="pass" required></td>
+                   </tr>
+                   <tr>
+                       <td>Gender</td>
+                       <td><input type="radio" name="gen" value="female">female
+                       <input type="radio" name="gen" value="male">male</td>
+    
+                   </tr>
+                   
+                   <tr>
+                       <td>Country</td>
+                       <td><select name="country" id="country">
+                           <option value="india">india</option>
+                           <option value="usa">usa</option>
+                           <option value="canada">canada</option>
+                           <option value="uk">uk</option>
+                         </select></td>
+                   </tr>
+                   
+                   <tr>
+                       <td><input type="submit" value="submit"></td>
+                       <td><input type="reset" value="reset"></td>
+                   </tr>
+    
+    
+                      
+                </table>  
+               
+               </form>
+          
+    
+            
+               
+        </main>
+          
+            
+
+
+
+    <footer  style="padding: 36px 0;background-color: black;height: 150px;">
+        <div>
+            <nav class="footer" style="float: left;">
+                <div class="column">
+                    <div class="title">MAIN</div>
+                    <ul>
+                        <li><a href="#">Start Here</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Meet Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <div class="title">COMPANY</div>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Directory</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <div class="title">ONE MORE</div>
+                    <ul>
+                        <li><a href="#">Meetups</a></li>
+                        <li><a href="#">Handbook</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">API</a></li>
+                        <li><a href="#">Equipment</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <div class="title">THE LAST ONE</div>
+                    <ul>
+                        <li><a href="#">Meetups</a></li>
+                        <li><a href="#">Handbook</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">API</a></li>
+                        <li><a href="#">Equipment</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+                <div class="icon">
+                    <img src="t1.jpg">
+                    <img src ="f5.jpg">
+                    <img src="v.jpg">
+                    </div>
+                    <div class="copyright">
+                        <p>© 2013 be happy<br>
+                            <a href="#">Privacy Policy</a> <a href="#">Terms of Service</a>
+                        </p>
+                    
+            </div>
+        
+    </footer>
+</body>
+</html>
